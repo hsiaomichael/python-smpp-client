@@ -1,0 +1,9 @@
+Installation Procedure .
+mkdir /opt/smpp
+copy files to /opt/smpp dir
+Edit /opt/smpp/SMPPClient.cfg (ip , port , username , passwd)
+chmod +x SubmitSM
+./SendSMS  [Originator Address] [Recipient Address] ‘Message Text’
+Reference *.sh example
+  
+
